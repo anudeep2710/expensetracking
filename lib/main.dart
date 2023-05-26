@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
-import "expenses.dart"
+import "expenses.dart";
 
 void main() {
-  runApp(const MyApp());
+  runApp(MaterialApp(
+    home: Expenses(),
+  ));
 }
 
